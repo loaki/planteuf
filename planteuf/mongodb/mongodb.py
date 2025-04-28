@@ -8,7 +8,7 @@ from typing import (
 )
 
 from mongodb.collections import Collections
-from mongodb.settings import (
+from settings import (
     LOGGING_FILENAME,
     LOGGING_LEVEL,
     MONGO_DB,

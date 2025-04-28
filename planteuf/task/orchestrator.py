@@ -10,7 +10,7 @@ from task.model import (
     TaskEvent,
     TaskStatus,
 )
-from task.settings import (
+from settings import (
     LOGGING_FILENAME,
     LOGGING_LEVEL,
 )
