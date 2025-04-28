@@ -6,8 +6,8 @@ endif
 COMPOSE_COMMAND=${COMPOSE_BINARY} --env-file .env -f '${COMPOSE_FILE}'
 CI_COMMIT_REF_SLUG ?= latest
 
-SRCS := project tests
-MYPY_SRCS := project tests
+SRCS := planteuf
+MYPY_SRCS := planteuf
 
 .PHONY: help
 help: ## show this help

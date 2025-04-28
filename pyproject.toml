@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "python-modules"
+name = "planteuf"
 version = "0.1.0"
 description = ""
 authors = ["Loaki <loaki.dev@gmail.com>"]
