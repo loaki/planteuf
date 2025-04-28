@@ -1,0 +1,13 @@
+.idea/
+**/__pycache__
+.mypy_cache
+.venv
+build
+.dmypy.json
+release/
+image-release/
+.env
+.vscode/secrets.env
+reports/
+.coverage
+.python-version
