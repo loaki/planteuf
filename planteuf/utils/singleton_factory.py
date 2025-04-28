@@ -20,7 +20,7 @@ from typing import (
     cast,
 )
 
-from sde_back.utils.sanitizer import Sanitizer
+from planteuf.utils.sanitizer import Sanitizer
 
 
 T = TypeVar("T")

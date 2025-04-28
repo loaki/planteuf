@@ -1,11 +1,8 @@
 import logging
-from typing import (
-    Literal,
-    Optional,
-)
+from typing import Optional
 
 
-def get_logger(name: str, level: Literal[20] = logging.INFO, filename: Optional[str] = None) -> logging.Logger:
+def get_logger(name: str, level: int = logging.INFO, filename: Optional[str] = None) -> logging.Logger:
     logger = logging.getLogger(name)
     logger.setLevel(level)
     formatter = logging.Formatter(

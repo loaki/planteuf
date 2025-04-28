@@ -1,9 +1,14 @@
 from collections import deque
-from typing import List
+from typing import (
+    Deque,
+    List,
+)
 
 
 class TaskQueue:
-    def __init__(self):
+    queue: Deque[str]
+
+    def __init__(self) -> None:
         self.queue = deque()
 
     def enqueue(self, task_id: str) -> bool:
